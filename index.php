@@ -16,4 +16,4 @@ echo "Скоращенный вариант: " . $workWithStrings->LittleFioRetu
 
 $workWithFiles = new WorkWithFiles("./Property/The Words.txt");
 echo "\n" . $workWithFiles->ReadingFile() . "\n";
-$workWithFiles->WritingFile("./CreatedFiles/hello.txt", "./Property/Hello world!");
+$workWithFiles->WritingFile("./Property/hello.txt", "./Property/Hello world!");
