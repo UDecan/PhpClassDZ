@@ -11,7 +11,7 @@ echo \sprintf("Количество вхождений числа {%s}: ", $nume
 
 $workWithStrings = new WorkWIthStrings("Хасанов Aртур Mаратович");
 echo "\n" . "Полный вариант: " . $workWithStrings->getFio() . "\n";
-echo "Скоращенный вариант: " . $workWithStrings->LittleFioReturn() . "\n";
+echo "Сокращенный вариант: " . $workWithStrings->LittleFioReturn() . "\n";
 
 
 $workWithFiles = new WorkWithFiles("./Property/The Words.txt");

@@ -33,11 +33,11 @@ class WorkWIthStrings
     }
 
     /*
-     *
+     * Возвращает сокращенное ФИО
      */
     public function LittleFioReturn(): string
     {
-        if(preg_match('/^(\S+)\s+(\S)\S*\s+(\S)\S*$/', $this->fio, $Res))
-            return $Res[1] . ' ' . $Res[2] . '. ' . $Res[3] . '.';
+        $littleFIO = explode(" ", $this->fio);
+        return $littleFIO[0] . ' ' . $littleFIO[1][0] . '. ' . $littleFIO[2][0] . '.';
     }
 }
